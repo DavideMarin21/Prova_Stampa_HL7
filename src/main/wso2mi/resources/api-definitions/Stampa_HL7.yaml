@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: Stampa_HL7
+  description: API Definition of Stampa_HL7
+  version: 1.0.0
+servers:
+- url: http://localhost:8290/stampa_hl7
+paths:
+  /:
+    get:
+      responses:
+        default:
+          description: Default response

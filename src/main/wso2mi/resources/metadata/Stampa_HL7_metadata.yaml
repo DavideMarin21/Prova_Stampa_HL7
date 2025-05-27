@@ -1,0 +1,10 @@
+---
+key: "Stampa_HL7-1.0.0"
+name : "Stampa_HL7"
+displayName : "Stampa_HL7"
+description: "Stampa_HL7"
+version: "1.0.0"
+serviceUrl: "https://{MI_HOST}:{MI_PORT}/stampa_hl7"
+definitionType: "OAS3"
+securityType: "BASIC"
+mutualSSLEnabled: false

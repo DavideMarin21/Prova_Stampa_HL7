@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/stampa_hl7" name="Stampa_HL7" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/">
+        <inSequence>
+            <script language="js"><![CDATA[const message = prompt("Inserisci il messaggio HL7:");
+console.log("Hai inserito:", message);]]></script>
+        <log category="TRACE"   logMessageID="false" logFullPayload="false" >
+    <message></message>
+</log></inSequence>
+        <faultSequence>
+        </faultSequence>
+    </resource>
+</api>
